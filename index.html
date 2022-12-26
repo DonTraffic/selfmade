@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <title>SELFMADE</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <svg class="header__logo">
+                <use xlink:href="./assets/svg/sprite.svg#Logo"></use>
+            </svg>
+            <div class="header__profile">
+                <svg>
+                    <use xlink:href="./assets/svg/sprite.svg#bell"></use>
+                </svg>
+                <p>Аракелян Д.</p>
+                <img src="./assets/img/avatar.jpg" alt="avatar">
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside class="aside">
+            <div class="aside__items">
+                <div class="active">
+                    <svg>
+                        <use xlink:href="./assets/svg/sprite.svg#account"></use>
+                    </svg>
+                    Управление
+                </div>
+                <div>
+                    <svg>
+                        <use xlink:href="./assets/svg/sprite.svg#group"></use>
+                    </svg>
+                    Портфолио
+                </div>
+                <div>
+                    <svg>
+                        <use xlink:href="./assets/svg/sprite.svg#star"></use>
+                    </svg>
+                    Награды
+                </div>
+                <div>
+                    <svg>
+                        <use xlink:href="./assets/svg/sprite.svg#like"></use>
+                    </svg>
+                    Избранное
+                </div>
+                <div>
+                    <svg>
+                        <use xlink:href="./assets/svg/sprite.svg#setting"></use>
+                    </svg>
+                    Аккаунт
+                </div>
+                <div>
+                    <svg>
+                        <use xlink:href="./assets/svg/sprite.svg#diagram"></use>
+                    </svg>
+                    Уровень
+                </div>
+                <div class="prem">
+                    <svg>
+                        <use xlink:href="./assets/svg/sprite.svg#prem"></use>
+                    </svg>
+                    Премиум
+                </div>
+                <div>
+                    <svg>
+                        <use xlink:href="./assets/svg/sprite.svg#message"></use>
+                    </svg>
+                    Поддержка
+                </div>
+            </div>
+            <button class="aside__exit">
+                <svg>
+                    <use xlink:href="./assets/svg/sprite.svg#exit"></use>
+                </svg>
+                Выйти
+            </button>
+        </aside>
+
+        <main class="main">
+            <section class="main__info">
+                <div class="main__info_profile">
+                    <div class="info__profile_header">
+                        <img src="./assets/img/avatar.jpg" alt="avatar">
+                        <p>Давид Аракелян</p>
+                        <span>ТОП</span>
+                    </div>
+                    <div class="info__profile_sr">
+                        <div class="profile__sr_title">
+                            <h2>SELFMADE RESPECT (SR)</h2>
+                            <span>(Что это?)</span>
+                        </div>
+                        <div class="profile__sr_items">
+                            <div>
+                                <span style="background-color: #A5A6F6;"></span>
+                                <p>Профиль</p>
+                            </div>
+                            <div>
+                                <span style="background-color: #F178B6;"></span>
+                                <p>Портфолио</p>
+                            </div>
+                            <div>
+                                <span style="background-color: #3AC49F;"></span>
+                                <p>SR ФРЕШ</p>
+                            </div>
+                            <div>
+                                <span style="background-color: #5D5FEF;"></span>
+                                <p>SR ПРО</p>
+                            </div>
+                            <div>
+                                <span style="background-color: #EF5DA8;"></span>
+                                <p>SR ТОП</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info__profile_disk">
+                        <div class="profile__disk_title">
+                            <h2>Мой диск</h2>
+                        </div>
+                        <div class="profile__disk_info">
+                            <p class="disk__info_text">Осталось</p>
+                            <p class="disk__info_value">40/100 (mb)</p>
+                            <div class="disk__info_progressBar">
+                                <div></div>
+                                <a href="#">Добавить место</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="main__info_sr">
+                    <h2 class="info__sr_title">Ваш SR</h2>
+                    <div class="info__sr_diagram">
+
+                        <div class="sr__diagram_container">
+                            <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="235" height="235" xmlns="http://www.w3.org/2000/svg">
+                                <circle class="circle-chart__background" stroke="rgba(221, 221, 221, 1)" stroke-width="1.8" fill="none" cx="16.91549431" cy="16.91549431" r="16"></circle>
+                                <circle class="circle-chart__circle" stroke="rgba(239, 93, 168, 1)" stroke-width="1.8" stroke-dasharray="10,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="16" />
+                            </svg>
+
+                            <div class="sr__diagram_container">
+                                <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="205" height="205" xmlns="http://www.w3.org/2000/svg">
+                                    <circle class="circle-chart__background" stroke="rgba(221, 221, 221, 1)" stroke-width="2.1" fill="none" cx="16.91549431" cy="16.91549431" r="15.6" />
+                                    <circle class="circle-chart__circle" stroke="rgba(93, 95, 239, 1)" stroke-width="2.1" stroke-dasharray="100,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.6" />
+                                </svg>
+
+                                <div class="sr__diagram_container">
+                                    <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="175" height="175" xmlns="http://www.w3.org/2000/svg">
+                                        <circle class="circle-chart__background" stroke="rgba(221, 221, 221, 1)" stroke-width="2.4" fill="none" cx="16.91549431" cy="16.91549431" r="15.2" />
+                                        <circle class="circle-chart__circle" stroke="rgba(58, 195, 159, 1)" stroke-width="2.4" stroke-dasharray="100,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.2" />
+                                    </svg>
+
+                                    <div class="sr__diagram_container">
+                                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="145" height="145" xmlns="http://www.w3.org/2000/svg">
+                                            <circle class="circle-chart__background" stroke="rgba(221, 221, 221, 1)" stroke-width="2.7" fill="none" cx="16.91549431" cy="16.91549431" r="14.8" />
+                                            <circle class="circle-chart__circle" stroke="rgba(241, 120, 182, 1)" stroke-width="2.7" stroke-dasharray="50,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="14.8" />
+                                        </svg>
+
+                                        <div class="sr__diagram_container">
+                                            <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="115" height="115" xmlns="http://www.w3.org/2000/svg">
+                                                <circle class="circle-chart__background" stroke="rgba(221, 221, 221, 1)" stroke-width="3" fill="none" cx="16.91549431" cy="16.91549431" r="14.4" />
+                                                <circle class="circle-chart__circle" stroke="rgba(165, 166, 246, 1)" stroke-width="3" stroke-dasharray="100,100" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="14.4" />
+                                            </svg>
+
+                                            <div class="sr__diagram_text">
+                                                <p class="sr__diagram_text_1">+10</p>
+                                                <p class="sr__diagram_text_2">935</p>
+                                                <p class="sr__diagram_text_3">17849</p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="main__info_value">
+                        <p class="main__info_value_1">74</p>
+                        <p class="main__info_value_2">/</p>
+                        <p class="main__info_value_3">134</p>
+                    </div>
+                </div>
+            </section>
+            <section class="main__statistic">
+                <div class="main__statistic_name">Статистика с 01.12.22 по 08.12.22</div>
+                <p class="main__statistic_name_value">Пользователи</p>
+                <p class="main__statistic_name_value">Анонимы</p>
+                <p class="main__statistic_name_value">Всего</p>
+
+                <div class="main__statistic_value odd">Уникальные визиты</div>
+                <p class="main__statistic_value_value odd">12</p>
+                <p class="main__statistic_value_value odd">23</p>
+                <p class="main__statistic_value_value odd">60</p>
+
+                <div class="main__statistic_value">Просмотров контактов</div>
+                <p class="main__statistic_value_value">2</p>
+                <p class="main__statistic_value_value null">x</p>
+                <p class="main__statistic_value_value">7</p>
+
+                <div class="main__statistic_value odd">Добавлений в избранное</div>
+                <p class="main__statistic_value_value odd">3</p>
+                <p class="main__statistic_value_value odd null">x</p>
+                <p class="main__statistic_value_value odd">13</p>
+
+                <div class="main__statistic_value">Просмотров портфолио</div>
+                <p class="main__statistic_value_value">22</p>
+                <p class="main__statistic_value_value">87</p>
+                <p class="main__statistic_value_value">156</p>
+
+            </section>
+        </main>
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer__top container">
+            <div class="footer__top_container">
+                <svg class="footer__top_logo">
+                    <use xlink:href="./assets/svg/sprite.svg#Logo"></use>
+                </svg>
+    
+                <div class="mediaLink">
+                    <div class="mediaLink__item">
+                        <svg class="mediaLink__item_svg">
+                            <use xlink:href="./assets/svg/sprite.svg#telegram"></use>
+                        </svg>
+                    </div>
+    
+                    <div class="mediaLink__item">
+                        <svg class="mediaLink__item_svg">
+                            <use xlink:href="./assets/svg/sprite.svg#instagram"></use>
+                        </svg>
+                    </div>
+    
+                    <div class="mediaLink__item">
+                        <svg class="mediaLink__item_svg">
+                            <use xlink:href="./assets/svg/sprite.svg#vk"></use>
+                        </svg>
+                    </div>
+    
+                    <div class="mediaLink__item">
+                        <svg class="mediaLink__item_svg">
+                            <use xlink:href="./assets/svg/sprite.svg#facebook"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__top_help">
+                <a href="#">Как работает сервис?</a>
+                <a href="#">Советы от SELFMADE</a>
+                <a href="#">Пользовательское соглашение</a>
+                <a href="#">Почему SELFMADE</a>
+                <a href="#">Помощь и поддержка</a>
+
+            </div>
+
+        </div>
+
+        <div class="footer__bottom">
+            <div class="container">
+                <p>© SELFMADE.TEAM 2022</p>
+                <p>ИНН 431207720494 / ОГРНИП 320508100324371</p>
+                <a href="#">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
